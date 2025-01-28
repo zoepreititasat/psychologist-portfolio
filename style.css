@@ -1,6 +1,16 @@
 html{
   scroll-behavior: smooth;
 }
+xml {
+  font-family: Arial, sans-serif;
+  white-space: pre;
+}
+
+sitemap {
+  margin: 20px;
+  color: #333;
+}
+
 .home {
     background-color: #F5EFE6;
 
