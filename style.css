@@ -29,6 +29,7 @@ html{
     border-radius: 154.5px;
     width: 309px;
   }
+ 
   
   .inicio{
     display: flex;
@@ -71,6 +72,24 @@ html{
     font-size: 19px;
     letter-spacing: 0;
     line-height: normal;
+  }
+
+  .text-titulo{
+
+    margin-right: 26px;
+  }
+
+  .text-parrafo{
+
+    margin-right: 26px;
+  }
+
+  .texto-inicio{
+    max-width: 50%;
+  }
+  
+  .group{
+    max-width: 50%;
   }
   
   .home .text-wrapper-2 {
@@ -357,23 +376,6 @@ html{
     line-height: normal;
   }
 
-  .text-titulo{
-
-    margin-right: 26px;
-  }
-
-  .text-parrafo{
-
-    margin-right: 26px;
-  }
-
-  .texto-inicio{
-    max-width: 50%;
-  }
-  
-  .group{
-    max-width: 50%;
-  }
 
   .home .image{
     max-height: 30px;
@@ -389,4 +391,65 @@ html{
     margin: 5px;
   }
 
+  @media (max-width: 768px) {
+    .inicio {
+          display: flex;
+          flex-direction: column;
+          margin-top: 70px;
+          margin-bottom: 70px;
+          padding: 15px;
+          align-content: center;
+          flex-wrap: wrap;        /* Espacio entre elementos */
+    }
   
+    .texto-inicio {
+      max-width: 90%; /* Ajusta el texto para que no ocupe demasiado ancho */
+      text-align: center; /* Centra el texto */
+    }
+  
+    .home .alan {
+      max-width: 60%; /* Ajusta el tamaño de la imagen para móviles */
+    }
+    .home .img{
+      max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .text-parrafo{
+      margin: 0px;
+    }
+    .text-titulo{
+      margin: 0px;
+    }
+
+    .group{
+      display: flex;
+    justify-content: center;
+    max-width: 100%;
+    }
+    .home .contact-button {
+      margin-right: 0px;
+    }
+    .bloques-2-3 {
+      display: flex
+  ;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 15px;
+    }
+    .home .overlap-3 {
+      max-width: 418px;
+      margin-bottom: 15px;
+      padding: 10px;
+      background-color: #F5EFE6;
+      border-radius: 30px;
+      display: flex;
+      box-shadow: 0px 4px 10px #bbe1fa40;
+      flex-direction: column;
+      justify-content: center;
+      margin-right: 0px;
+    }
+  }
